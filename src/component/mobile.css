@@ -1,0 +1,212 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.App {
+    margin: 0px 10px;
+    position: relative;
+}
+
+.mobile-page{
+    /* border: 2px solid saddlebrown; */
+    width: 100%;
+}
+
+.main-img-two {
+    /* border: 2px solid black; */
+    text-align: center;
+    width: 90%;
+    margin-left: 65px;
+}
+
+/* .main-img-first .slider-img-two {
+    width: 97vw;
+    height: 65vh;
+} */
+.mw{
+    width: 100vw;
+    height: 80vh;
+}
+
+/* -----------------------three-boxes-bar-------------- */
+
+.three-boxes-bar {
+    /* border: 2px solid red; */
+    /* margin-top: 15px; */
+}
+
+.boxes {
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-mobile-heading {
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #001730;
+    color: #fff;
+}
+
+.main-mobile-heading:hover {
+    color: #4AD7D1;
+}
+/* ---------------iphone---------------- */
+.iphone-first-box-one {
+    background-image: url(/public/images/apple/ip-12-pro.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+    width: 30vw;
+    height: 65vh;
+}
+
+.iphone-first-box-two {
+    background-image: url(/public/images/apple/ip-13-pro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+    width: 30vw;
+    height: 65vh;
+}
+
+.iphone-first-box-three {
+    background-image: url(/public/images/apple/ip-14-pro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+    width: 30vw;
+    height: 65vh;
+}
+/* --------------------------realme------------------ */
+
+.realme-first-box-one {
+    background-image: url(/public/images/realme/real-10-pro.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    border-radius: 2px;
+    width: 30vw;
+    height: 65vh;
+}
+
+.realme-first-box-two {
+    background-image: url(/public/images/realme/real-11-pro.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+    width: 30vw;
+    height: 65vh;
+}
+
+.realme-first-box-three {
+    background-image: url(/public/images/realme/real-12-pro.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+    width: 30vw;
+    height: 65vh;
+}
+/* --------------------vivo--------------------- */
+
+.vivo-first-box-one {
+    background-image: url(/public/images/vivo/vivo-10-pro.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    border-radius: 2px;
+    width: 30vw;
+    height: 65vh;
+}
+
+.vivo-first-box-two {
+    background-image: url(/public/images/vivo/vivo-11-pro.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+    width: 30vw;
+    height: 65vh;
+}
+
+.vivo-first-box-three {
+    background-image: url(/public/images/vivo/vivo-12-pro.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+    width: 30vw;
+    height: 65vh;
+}
+/* ------------------mi------------------- */
+
+.mi-first-box-one {
+    background-image: url(/public/images/mi/mi-10.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+    width: 30vw;
+    height: 65vh;
+}
+
+.mi-first-box-two {
+    background-image: url(/public/images/mi/mi-11.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+    width: 30vw;
+    height: 65vh;
+}
+
+.mi-first-box-three {
+    background-image: url(/public/images/mi/mi-12.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+    width: 30vw;
+    height: 65vh;
+}
+/* --------------------------------------- */
+.product-price {
+    /* border: 2px solid green; */
+    padding: 10px 0px;
+}
+
+.box-para {
+    font-size: 12px;
+    font-family: cursive;
+}
+
+.box-head-three {
+    color: #790600;
+    font-family: cursive;
+    margin: 10px 0px;
+}
+
+.product-price .cart-btn {
+    background-color: #790600;
+    color: #fff;
+    padding: 9px 15px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.product-price .cart-btn:hover {
+    background-color: #001730;
+    transition: 0.5s;
+}

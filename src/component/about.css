@@ -1,0 +1,78 @@
+.about-search-bar{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar{
+    border: 1px solid black;
+    padding: 10px 25px;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001730;
+}
+
+.about-div-one{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 30px 0px 10px 0px;
+}
+
+.first-about-heading-two{
+    font-size: 30px;
+    font-weight: 600;
+    color: #790600;
+}
+
+.about-para-one{
+    color: #001730;
+}
+
+.about-div-two{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.second-about-heading-two{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    color: #001730; 
+}
+
+.about-div-three{
+    /* border: 2px solid red; */
+    padding: 20px 0px 10px 0px;
+}
+
+.abt-head-three{
+    text-align: center;
+    color: #790600;
+}
+
+.third-about-heading-two{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.main-abt-ul-li-bar{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    color: #001730;
+}
+.abt-li{
+    list-style: circle;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.abt-btn-srch{
+    background-color: #001730;
+    color: #fff;
+}
